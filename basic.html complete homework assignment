@@ -1,0 +1,173 @@
+<!-- Complete this worksheet in HTML and CSS. Instructions are as comments; you may use reference_sheet.html and the internet to jog your memory on HTML tags and CSS. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <style>
+        
+            h1 {
+                border: 6px magenta;
+                color: skyblue;
+            }
+
+            p {
+                color: A9A9A9;
+                font-size: 16px;
+                font-family: 'Open Sans', serif;
+                width: 50%;
+            }
+            #quote {
+                color: magenta;
+                font-style: italic;
+                border: solid lightskyblue 2px;
+            }
+
+            #book {
+                border: solid lightskyblue 2px;
+            }
+
+            #bargraph {
+                border: 1px solid gray;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                width: 25%;
+            }
+            .bar_label {
+                color: red;
+            }
+            #longest {
+                width: 300px;
+                height: 10px;
+                background: gray;
+                border: 1px solid red;
+            }
+            #longer {
+                width: 200px;
+                height: 10px;
+                background: dimgray;
+                border: 1px red;
+            }
+            #long {
+                width: 150px;
+                height: 10px;
+                background: gray;
+                border: 1px blueviolet;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+
+        <h1> David Jacobs Summary!</h1>
+        
+        <h2> <p> Hey, I'm David Jacobs. I'm from <strong> Milwaukee, </strong> Wisconsin and I'm studying <i> Broadcast and Digital Journalism at Newhouse </i>. </p> </h2>
+        <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
+        <!-- Tags to use: <p>, <strong>, <i> -->
+        
+
+        <h2> <p> https://www.google.com/chrome/
+    
+        https://www.linkedin.com/in/david-jacobs-90061a29a/ </p> </h2>
+        <!-- Include: at least two handles for your social media accounts -->
+        <!-- Tags to use: <p>, <a> -->
+
+    
+        <h2> ~ Challenge: Why is my text maroon? ~</h2>
+        <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) When you're done, change the text in the <p> tag below to "My text is gray." -->
+        <p>My text is gray.</p>
+
+
+        <h2> <div> My favorite meme! </div>
+            <img src="large_wink.png" alt="an image of a photograph" height="300px" width="400px"> </h2>
+        <!-- Include: "large_wink.png" as an image -->
+        <!-- Tags to use: <img> -->
+        <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+
+    
+        <h2> <strong> Why I'm a great student </strong> <div>
+            <ul>
+                <li>I'm smart</li>
+                <li>I'm responsible</li>
+                <li>I participate in class</li>
+                <li>I get good grades</li>
+            </ul>
+        </div>
+        </h2>
+        <!-- Include: Use 'reference_sheet.html' to figure out how to add an unordered list here -->
+        <!-- Tags to use: <ul>, <li>, <strong> -->
+        
+    
+        <h2>Top 3 most famous people from my hometown<div> <ol>
+                <li>Gene Wilder</li>
+                <li>Dan Harmon</li>
+                <li><a> Jeffrey Dahmer </a> </li>
+            </ol>
+        </h2>
+        <!-- Include: an ordered list -->
+        <!-- Tags to use: <ol>, <li>, <a> -->
+
+
+        <h2> ~ Challenge: Read my poetry ~
+            <p> Out east at university I study, </p>
+            <p> <br> Distracted by the daydreams of heat </p>
+            <p> My brain feels muddy. </p>
+            <p> <br> Then comes warmth. A clean sheet. </p>
+            </h2>
+        <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
+        <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
+        
+        <div>
+        </div>
+
+        <h2> 
+            This is one of my favorite quotes
+            <i> <p> "Beware; for I am fearless, and therefore powerful." </i> <h3> ―Mary Shelley, Frankenstein </h3> </p> </h2>
+        <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
+        <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+
+       
+
+        <h2> <strong> These are more of my favorite books </strong> </h2>
+             <div>
+                <ul>
+            <div id="book">
+            <p class="book"> <li> Variant - Robison Wells </li> </p>
+            <div id="variant - robison wells"></div>
+            <p class="book"><li>And Then There Were None - Agatha Christie</li> </p>
+            <div class="and then there were none - agatha christie"></div>
+            <p class="book"> <li>Open - Andre Agassi</li> </p>
+            <div id="open - andre agassi"></div>
+                </ul>
+        </div>
+        <!-- Include: an unordered list of at least three books, list items should have a border -->
+        <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
+        
+
+        <h2>Here's how I normally spend my weekend 
+            <iframe title="I spend roughly 7% of my 72-hour weekend doing homework" aria-label="Bar Chart" id="datawrapper-chart-XFCtp" src="https://datawrapper.dwcdn.net/XFCtp/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="404" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
+        </h2>
+        <!-- Include: a complete Datawrapper chart (you can make up data) showing what you normally spend time on over the weekend; must include all requirements of a complete chart (hed, subhed, intentional colors, byline, etc.) -->
+        <!-- Tags to use: <iframe> -->
+
+
+        <h3>~ Challenge: A very simple bar graph ~</h3>
+        <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. (Use the CSS in #longest as a reference.) You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
+
+        <div id="bargraph">
+            <h4>Length of bars</h4>
+            <p class="bar_label">Longest</p>
+            <div id="longest"></div>
+            <p class="bar_label">Longer</p>
+            <div id="longer"></div>
+            <p class="bar_label">Long</p>
+            <div id="long"></div>
+        </div>
+     
+    </body>
+</html>
+
